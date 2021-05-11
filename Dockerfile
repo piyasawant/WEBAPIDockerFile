@@ -1,5 +1,5 @@
 FROM mcr.microsoft.com/dotnet/core/aspnet:3.1
-WORKDIR /dotnetcorestapi
+WORKDIR /WEBAPIDockerFile
 COPY . .
 EXPOSE 80
-CMD ["dotnet", "DemoRESTAPI.dll"]
+CMD ["dotnet", "TestAPIDocker.dll"]
